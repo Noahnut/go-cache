@@ -5,11 +5,12 @@ change the cache replacement policy
 
 ## Cache Replacement Policy
 - [x] Least Frequently Used (LFU)  
-
+  Based on the [An O(1) algorithm for implementing the LFU
+cache eviction scheme](http://dhruvbird.com/lfu.pdf) Paper to implement the O(1) LFU Replace policy
 - [ ] Tiny Least Frequently Used (TinyLFU) 
  
 ## How to use
-```
+```golang
 package main
 
 import (
